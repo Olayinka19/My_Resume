@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* color: white !important; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.Nav {
+
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 13vh;
+  background-color: rgb(13, 14, 14);
+  color: white;
+  text-decoration: none !important;
+  font: 1em sans-serif;
+  /* padding: 0.5em 1em; */
+  font-size: 20px;
+  border-bottom: 1px solid rgb(13, 14, 14);
+}
+.logo {
+  height: 1.7em;
+  /* margin-right: 0.5em; */
+}
+.contact{
+  text-align: justify;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding: 12px 0.5🇦🇪 ;
+}
+.contact:hover{
+  background-color: rgb(16, 87, 87);
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(16, 87, 87);
+
+}
+.skill{
+  text-align: justify;
+  margin-top: 1em;
+  border: 5px solid rgb(131, 14, 14);
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  background-color: rgb(13, 14, 14);
+  color: white;
+}
+.skill:hover{
+  background-color: rgb(16, 87, 87);
+}
+.skill a{
+  color: white;
+  text-decoration: none;
+}
+.skill a:hover{
+  text-decoration: none;
+}
+.Nav a:visited{
+  color: rgb(156, 19, 19);
+}
+.Nav a:hover{
+  color: rgb(31, 206, 154);
 }
