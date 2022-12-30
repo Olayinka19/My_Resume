@@ -33,7 +33,10 @@ function Home() {
       <ul>
         <li>Designed a user interface with express and SQL and Postgress</li>
         <li>
-            <p>Wrote code using javascript to build an API client from</p>
+            <p>Wrote code using javascript to build an API client from scratch using express and Javascript</p>
+        </li>
+        <li>
+            <p>Managed Hosting environment and database</p>
         </li>
         </ul>
        
