@@ -1,13 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
+// import './App.css'
 import Olayinka from "../assets/Olayinka.mp4";
 function Home() {
     // const getImage = getImage;
   return (
     <div>
       <h1>Full Stack Web Developer </h1>
+      <img src="" width="120px" height="120px"></img>
       <div className="">
-      <h3>Frontend:</h3>
+      <h3>Olayinka's Porfolio</h3>
       <ul>
         <li>
             <p>Created expectional UX design, determined backend data display, designed styling, colors, User Interface, website optimization and naviagtion</p>
@@ -46,7 +49,7 @@ function Home() {
       
       {/* <Navbar />
       <div className="container"></div> */}
-      
+      {/* <Footer /> */}
     </div>
   )
 }

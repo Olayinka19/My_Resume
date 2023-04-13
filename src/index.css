@@ -69,3 +69,12 @@ code {
 .Nav a:hover{
   color: rgb(31, 206, 154);
 }
+.footer {
+  text-align: center;
+  /* margin-top: 1em; */
+  /* border: 5px solid rgb(131, 14, 14); */
+  padding: 1.5em 1em;
+  /* border-radius: 10px;
+   */
+   background-color: rgb(16, 106, 106);
+}
