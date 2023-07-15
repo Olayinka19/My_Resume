@@ -6,23 +6,26 @@ import { BrowserRouter as Router, Routes ,Route} from'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
-import Navbar from './Components/Navbar';
+import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Links from './Components/Links';
 import Eduaction from './Components/Eduaction';
 import Footer from './Components/Footer';
+import Video from './Components/Video';
+
 
 function App() {
   return (
     
     <Router>
-    <Navbar />
+    <NavBar />
     
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/Video" element={<Video/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/navbar" element={<Navbar/>} />
+        <Route path="/NavBar" element={<NavBar/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/skills" element={<Skills/>} />
@@ -32,7 +35,7 @@ function App() {
         <Route path="*" element={<Link to="/">Home</Link>} />
         
       </Routes>
-      <Footer />
+    
     </Router>
     
   );

@@ -1,19 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import logo from "../assets/logo.png";
-import Footer from './Footer';
-function Navbar() {
-    const getLogo = logo;
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
+function NavBar() {
   return (
-    <div className='Nav'>
-    <Link to="/"><img className='logo' src={logo}/></Link>
-      <Link to="/contact" className='Nav'>Contact</Link>
-      <Link to="/Skills" className='Nav'>Skills</Link>
-      <Link to="/Projects" className='Nav'>Projects</Link>
-      <Link to="/Education" className='Nav'>Education</Link>
-      <Link to="/Links" className='Nav'>Links</Link>
+    <>
+
+    <div>
+      Navbar
     </div>
-  )
+    </>
+  );
 }
 
-export default Navbar
+export default NavBar;
